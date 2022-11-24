@@ -1,0 +1,146 @@
+@import url('./reset.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7.031rem;
+    padding-left: 7.031rem;
+    padding-top: 2.563rem;
+
+}
+
+.logo {
+    padding-top: 44px;
+    padding-bottom: 133px;
+}
+
+header .fa-bars {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-bottom: 82px;
+
+}
+
+.nav-links a:hover {
+    text-decoration: underline cornflowerblue;
+}
+
+.section {
+    display: flex;
+
+
+}
+
+.section >.left-side {
+    flex-direction: column;
+    flex-basis: 48%;
+    padding-left: 113px;
+    cursor: default;
+
+
+}
+
+.left-side h1 span {
+    color: #f39c12;
+
+}
+
+.left-side h1 {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.left-side h1:hover {
+    text-decoration: underline cornflowerblue;
+
+}
+
+.left-side p {
+    color: #95a5a6;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.left-side p:hover {
+    text-decoration: underline #4834d4;
+
+}
+.left-side button{
+    padding:15px 26px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 25px;
+}
+.left-side button:hover{
+    text-decoration: underline #4834d4;
+}
+.left-side a{
+    color: #000;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.left-side a:hover{
+    text-decoration: underline #4834d4;
+}
+
+
+.section>.right-side {
+    flex: 0.52;
+    padding-right: 112px;
+
+}
+
+
+
+
+b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 0 18.063rem;
+
+
+}
+
+footer img {
+    margin-left: 4.983rem;
+
+}
+
+@media(max-width:768) {
+    header .fa-bars {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .nav-links a{
+        display: none;
+    }
+}
