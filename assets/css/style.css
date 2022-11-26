@@ -7,7 +7,6 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 header {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,17 +16,15 @@ header {
 
 }
 
-.logo {
-    padding-top: 44px;
-    padding-bottom: 133px;
-}
 
 header .fa-bars {
     display: none;
+    text-decoration: none;
 }
 
 .nav-links {
     display: flex;
+
 
 }
 
@@ -35,7 +32,9 @@ header .fa-bars {
     text-decoration: none;
     color: black;
     margin-left: 10px;
-    padding-bottom: 82px;
+    font-weight: 400;
+
+
 
 }
 
@@ -45,16 +44,19 @@ header .fa-bars {
 
 .section {
     display: flex;
-
+    justify-content: space-between;
+    padding-left: 112.5px;
+    padding-right: 112px;
 
 }
 
-.section >.left-side {
+.section>.left-side {
     flex-direction: column;
     flex-basis: 48%;
-    padding-left: 113px;
     cursor: default;
     min-width: 715px;
+    padding-top: 117px;
+
 
 
 }
@@ -66,7 +68,7 @@ header .fa-bars {
 
 .left-side h1 {
     font-weight: 700;
-    font-size: 72px;
+    font-size: 70px;
 }
 
 .left-side h1:hover {
@@ -107,46 +109,77 @@ header .fa-bars {
     text-decoration: underline #4834d4;
 }
 
-
-.section >.right-side {
+.section>.right-side {
+    min-width: 500px;
+    padding-top: 4.5rem;
     flex: 0.52;
-    padding-right: 112px;
-    min-width:500px ;
 }
-
-
-
 
 b {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 220px;
+    padding-top: 202px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    padding: 0 18.063rem;
+    padding: 0 18rem;
+    padding-top: 45px;
+    min-width: 770px;
 
 
 }
 
 footer img {
     margin-left: 4.983rem;
+    
 
 }
 
-@media(max-width:768) {
-    .header{display: flex;
-        flex-direction: column;
-    }
-    .header .fa-bars {
+@media(max-width:768px) {
+
+    header .fa-bars {
         display: flex;
+        color: #000;
         cursor: pointer;
     }
 
-    
+
+    .nav-links {
+        display: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0 0;
+        
+    }
+
+    .section>.left-side {
+        min-width: 700px;
+        text-align: center;
+        flex-basis: 100%;
+        padding-bottom: 4.5rem;
+    }
+
+    .section>.right-side {
+        min-width: 500px;
+        text-align: center;
+        flex-basis: 100%;
+    }
+    footer{
+        padding: 0 80px;
+        min-width:475px;
+
+    }
+    footer img{
+        margin: 0 20px;
+    }
+    b{
+        padding-bottom:23px ;
+    }
 }
