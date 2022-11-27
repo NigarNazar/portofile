@@ -17,8 +17,12 @@ header {
 }
 
 
-header .fa-bars {
+.bars {
     display: none;
+
+   
+}
+.bars a{
     text-decoration: none;
 }
 
@@ -141,12 +145,16 @@ footer img {
 
 @media(max-width:768px) {
 
-    header .fa-bars {
+    .bars {
         display: flex;
-        color: #000;
         cursor: pointer;
+       
     }
-
+   
+.bars a{
+    color: #000;
+    font-size: 20px;
+}
 
     .nav-links {
         display: none;
@@ -181,5 +189,26 @@ footer img {
     }
     b{
         padding-bottom:23px ;
+    }
+}
+@media(max-width:500px){
+    header{
+        padding: 41px 20px;
+    }
+    .section{
+        align-items: center;
+        flex-basis: 50%;
+        padding: 0;
+    }
+    
+    .left-side h1{
+        font-size: 55px;
+    }
+    footer {
+        padding:20px 0;
+        max-width: 300px;
+    }
+    footer img{
+        margin: 0 1px;
     }
 }
