@@ -20,9 +20,10 @@ header {
 .bars {
     display: none;
 
-   
+
 }
-.bars a{
+
+.bars a {
     text-decoration: none;
 }
 
@@ -126,21 +127,72 @@ b {
     padding-top: 202px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 18rem;
-    padding-top: 45px;
-    min-width: 770px;
-
-
+.trusted-by-sec {
+    text-align: center;
 }
 
-footer img {
-    margin-left: 4.983rem;
-    
+.trusted-by-sec h6 {
 
+    font-weight: 400;
+    font-size: 18px;
+    padding: 100px 0 45px;
+    cursor:default;
+}
+.trusted-companies{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 18rem 0;
+}
+.downstairs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 9.75rem 21rem 1.25rem;
+    cursor:default;
+}
+.downstairs p{
+    color: rgba(255, 94, 105, 1);
+    font-size: 22px;
+    font-weight: 400;
+}
+.downstairs h1{
+    font-size: 3.375rem;
+    font-weight: 700;
+    line-height:59px;
+    min-width:768px;
+}
+.downstairs h1:hover{
+    text-decoration: underline cornflowerblue;
+}
+.general-vector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7.4rem 10rem 11rem;
+    cursor: default;
+}
+.one-vector h1{
+    font-size: 27px;
+    min-width: 244px;
+}
+.two-vector h1{
+    font-size: 27px;
+    min-width: 285px;
+}
+.three-vector h1{
+    font-size: 27px;
+    min-width: 247px;
+}
+.square{
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+}
+.square h6{
+    margin-left: 12px;
+    min-width: 228px;
+    font-size:14px;
 }
 
 @media(max-width:768px) {
@@ -148,13 +200,13 @@ footer img {
     .bars {
         display: flex;
         cursor: pointer;
-       
+
     }
-   
-.bars a{
-    color: #000;
-    font-size: 20px;
-}
+
+    .bars a {
+        color: #000;
+        font-size: 20px;
+    }
 
     .nav-links {
         display: none;
@@ -163,8 +215,8 @@ footer img {
     .section {
         display: flex;
         flex-direction: column;
-        padding: 70px 0 0;
-        
+        padding: 4.375rem 0 0;
+
     }
 
     .section>.left-side {
@@ -179,36 +231,104 @@ footer img {
         text-align: center;
         flex-basis: 100%;
     }
-    footer{
-        padding: 0 80px;
-        min-width:475px;
+    .trusted-company:nth-child(odd){
+        display: none;
+    }
+    .trusted-companies{
+        padding: 0 100px 0;
+    }
+    .downstairs{
+        display: flex;
+        justify-content:center;
+        padding: 6.25rem 1.9rem 0;
 
     }
-    footer img{
-        margin: 0 20px;
+    .downstairs h1{
+        text-align: center;
+        min-width: 700px;
+        font-size: 40px;
+        
+        
     }
-    b{
-        padding-bottom:23px ;
+    .general-vector{
+        display: flex;
+        justify-content: center;
+        padding: 0 20px 40px;
+        
+        
     }
+    .one-vector h1{
+        font-size: 17px;
+        min-width: 200px;
+    }
+.one-vector img{
+    width: 35px;
+    height: 35px;
 }
-@media(max-width:500px){
-    header{
-        padding: 41px 20px;
+.one-vector p{
+    font-size: 12px;
+}
+.square h6{
+    font-size: 12px;
+}
+.two-vector h1{
+    font-size: 17px;
+    min-width: 210px;
+}
+.two-vector img{
+    width: 35px;
+    height: 35px;
+}
+.two-vector p{
+    font-size: 12px;
+}
+.three-vector h1{
+    font-size: 17px;
+    min-width: 200px;
+}
+.three-vector img{
+    width: 35px;
+    height: 35px;
+}
+.three-vector p{
+    font-size: 12px;
+}
+.one-vector, .two-vector, .three-vector{
+    margin-left: 20px;
+}
+}
+
+@media(max-width:500px) {
+    header {
+        padding: 2.563rem  1.25rem;
     }
-    .section{
+
+    .section {
         align-items: center;
         flex-basis: 50%;
         padding: 0;
     }
-    
-    .left-side h1{
+
+    .left-side h1 {
         font-size: 55px;
     }
-    footer {
-        padding:20px 0;
-        max-width: 300px;
+    .downstairs{
+        display: flex;
+        justify-content: center;
+        padding: 6.25rem 0 0;
+        
     }
-    footer img{
-        margin: 0 1px;
+    .downstairs h1{
+        
+        font-size: 32px;
+        min-width:500px 
     }
+    
+/* .trusted-company:nth-child(even){
+    display: none;
+} */
+ 
+/* .trusted-company:not(:first-child){
+    display: none;
+} */
 }
