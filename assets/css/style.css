@@ -380,14 +380,18 @@ button:hover {
     font-size: 24px;
     font-weight: 700;
     min-width: 500px;
-    line-height: 19px;
+    line-height: 36px;
 }
 
 .blog-blog-one {
     flex: 1;
     padding-top: 317px;
+   ;
 }
-
+.blog-vector {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #666;
+}
 .section-blog a {
     text-decoration: none;
     color: #fff;
@@ -395,13 +399,6 @@ button:hover {
     font-weight: 700;
 }
 
-hr {
-    margin-top: 34.73px;
-    width: 692.55px;
-    color: rgba(255, 255, 255, 0.3);
-    border-bottom: 1px solid;
-
-}
 
 .section-product {
     display: flex;
@@ -556,6 +553,7 @@ hr {
     align-items: center;
     padding-left: 113px;
     padding-right: 112px;
+    padding-bottom: 159.66px;
 
 }
 
@@ -578,7 +576,7 @@ hr {
 .left-word h1 {
     font-size: 54px;
     font-weight: 700;
-    padding-bottom:40px;
+    padding-bottom: 40px;
 }
 
 .right-word {
@@ -595,29 +593,179 @@ hr {
     line-height: 46px;
     min-width: 500px;
 }
-.word-bottom{
+
+.word-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.bot-bottom button{
+
+.bot-bottom button {
     width: 54px;
     height: 54px;
     background-color: #000;
     color: #fff;
     /* margin:-0em; */
 }
-.word-bottom h5{
+
+.word-bottom h5 {
     font-size: 20px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 20px;
 }
-.word-bottom span{
+
+.word-bottom span {
     font-size: 18px;
     color: rgba(0, 0, 0, 1);
     font-weight: 400;
 }
 
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 78px 112.5px 80.34px;
+    margin: 0;
+    
+
+}
+
+.section-faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+.section-ask {
+    display: flex;
+    color: #fff;
+    
+}
+.section-ask h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    min-width: 500px;
+}
+.left-ask {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+.left-answer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+
+.right-ask {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+padding-left: 20px;
+}
+.right-answer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #000;
+    padding: 150.34px 112.5px 21px;
+}
+.footer-call{
+    padding-bottom:40px;
+}
+.footer-call h1{
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 59px;
+    
+}
+.footer-call h2{
+    font-size: 54px;
+    font-weight: 700;
+    color: rgba(60, 70, 255, 1);
+    line-height: 59px;
+}
+.footer-creator{
+    display: flex;
+    justify-content: space-between;
+}
+.left-creator svg{
+margin-bottom: 18px;
+}
+.creator-bottom{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.creator-bottom span{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+}
+.creator-bottom a{
+    text-decoration: none;
+    color: rgba(92, 92, 92, 1);
+    font-size: 17px;
+    font-weight: 400;
+}
+.right-creator{
+    display: flex;
+}
+.right-creator a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.creator-top{
+    display: flex;
+    flex-direction: column;
+}
+.creator-top a{  
+    
+    margin-bottom: 40px;
+}
+.creator-medium{
+    display: flex;
+    flex-direction: column;
+}
+.creator-medium a{
+    margin-right:122px;
+    margin-left:123px ;
+    margin-bottom: 40px;
+}
+.creator-finish{
+    display: flex;
+    flex-direction: column;
+}
+.creator-finish a{
+    margin-bottom: 40px;
+    
+}
+.footer-finish{
+    padding-top: 140px;
+    color: rgba(138, 149, 173, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
 
 @media (max-width:1330px) and (min-width:768px) {
     .bars {
@@ -777,9 +925,7 @@ hr {
         margin-top: -20%;
     }
 
-    hr {
-        /* width:350px; */
-    }
+    
 
     .section-blog h1 {
         font-size: 32px;
