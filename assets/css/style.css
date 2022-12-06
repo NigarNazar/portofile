@@ -254,7 +254,7 @@ button:hover {
     /* background-color: #000; */
     z-index: 2;
     padding-top: 70px;
-    
+
 }
 
 .project_in-the {
@@ -350,13 +350,13 @@ button:hover {
 .blog-blog-one {
     flex: 1;
     padding-top: 317px;
-    
+
 }
 
 .blog-vector {
     padding-bottom: 30px;
     border-bottom: 1px solid #666;
-    
+
 }
 
 .section-blog a {
@@ -373,6 +373,7 @@ button:hover {
     padding-left: 113px;
     padding-right: 112px;
     padding-top: 156px;
+    cursor: default;
 
 
 }
@@ -438,7 +439,8 @@ button:hover {
 .education-and-work {
     display: flex;
     padding: 154px 112.5px 0;
-   
+    cursor: default;
+
 
 }
 
@@ -510,7 +512,7 @@ button:hover {
 
 }
 
-.work-right > svg{
+.work-right>svg {
     flex-basis: 10%;
 }
 
@@ -521,6 +523,7 @@ button:hover {
     padding-left: 112.5px;
     padding-right: 112.5px;
     padding-bottom: 159.66px;
+    cursor: default;
 
 }
 
@@ -591,10 +594,11 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: #000;
-padding-left: 112.5px;
-padding-right: 112.5px;
-padding-top: 78.34px;
-padding-bottom: 80px;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+    padding-top: 78.34px;
+    padding-bottom: 80px;
+    cursor: default;
 
 
 
@@ -609,14 +613,16 @@ padding-bottom: 80px;
     padding-bottom: 150px;
 
 }
-.section-faq span{
+
+.section-faq span {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 22px;
     color: rgba(255, 138, 86, 1);
     letter-spacing: 4px;
 }
-.section-faq h1{
+
+.section-faq h1 {
     font-size: 54px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -626,6 +632,7 @@ padding-bottom: 80px;
 .section-ask {
     display: flex;
     color: #fff;
+    align-items: center;
 
 }
 
@@ -641,7 +648,10 @@ padding-bottom: 80px;
     flex-direction: column;
     flex-basis: 50%;
     justify-content: space-between;
-    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+
 
 }
 
@@ -657,7 +667,8 @@ padding-bottom: 80px;
     display: flex;
     flex-direction: column;
     flex: 1;
-    
+    padding-left:20px;
+
 }
 
 .right-answer {
@@ -675,14 +686,15 @@ padding-bottom: 80px;
     background-color: #000;
     padding-left: 112.5px;
     padding-right: 112.5px;
-    padding-bottom:21px;
-   
-    
-    
+    padding-bottom: 21px;
+
+
+
 }
 
 .footer-call {
     padding-bottom: 40px;
+    cursor: default;
 }
 
 .footer-call h1 {
@@ -720,6 +732,7 @@ padding-bottom: 80px;
     font-size: 16px;
     font-weight: 400;
     color: rgba(102, 102, 102, 1);
+    cursor: default;
 }
 
 .creator-bottom a {
@@ -756,7 +769,7 @@ padding-bottom: 80px;
 }
 
 .creator-medium a {
-    margin-right:50px;
+    margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 40px;
 }
@@ -776,13 +789,13 @@ padding-bottom: 80px;
     color: rgba(138, 149, 173, 1);
     font-size: 16px;
     font-weight: 400;
+    cursor: default;
 }
 
 @media (max-width:1330px) and (min-width:768px) {
     .bars {
         display: flex;
         cursor: pointer;
-
     }
 
     .bars a {
@@ -869,7 +882,7 @@ padding-bottom: 80px;
         font-size: 14px;
     }
 
-   
+
 
     .one-vector,
     .two-vector,
@@ -888,7 +901,7 @@ padding-bottom: 80px;
     .project-info-1 {
         display: flex;
         flex-wrap: wrap;
-    
+
     }
 
     .project-in-the {
@@ -907,15 +920,23 @@ padding-bottom: 80px;
 
     .section-blog {
         display: flex;
-        justify-content: space-between;
-        padding: 0 30px 40px;
-        /* margin-top: -20%; */
+        flex-direction: column;
+
+        
     }
 
 
 
     .section-blog h1 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .section-blog h5 {
+        font-size: 22px;
+    }
+
+    .blog-blog-one {
+        padding-top:40px;
     }
 
     .section-blog a {
@@ -926,7 +947,7 @@ padding-bottom: 80px;
         font-size: 15px;
         min-width: 500px;
     }
-    
+
     .section-product {
         padding: 60px 0;
     }
@@ -970,65 +991,81 @@ padding-bottom: 80px;
     .product-img .image1 {
         display: none;
     }
-    .education-and-work{
+
+    .education-and-work {
         display: flex;
-        flex-direction:column;
-    
-    
+        flex-direction: column;
+
+
     }
+
     .right-work {
         padding-top: 20px;
     }
-    .word-testi{
+
+    .word-testi {
         display: flex;
         flex-wrap: wrap;
         /* padding: 0; */
     }
-    .left-word h1{
+
+    .left-word h1 {
         font-size: 36px;
     }
-    
-    .left-word h3{
+
+    .left-word h3 {
         font-size: 18px;
     }
-    .right-word{
+
+    .right-word {
         padding-top: 100px;
 
     }
-    .right-word h1{
+
+    .right-word h1 {
         font-size: 28px;
     }
-    .section-ask{
-        display: flex;
-        flex-wrap: wrap;
-    padding: 0;
-    }
-    .section-ask h3{
-        font-size: 18px;
-    }
-    .section-faq h1{
-        font-size: 30px;
-    }
-    .section-faq span{
-        font-size:20px;
-    }
-    .footer h1{
-        font-size: 30px;
-    }
-    .footer h2{
-        font-size:30px ;
-    }
-    .footer-creator a{
-        font-size: 16px;
-    }
-    .right-creator{
-        padding-top: 40px;
-    }
-    .footer-creator{
+
+    .section-ask {
         display: flex;
         flex-direction: column;
     }
-    .footer-finish{
+    
+
+    .section-ask h3 {
+        font-size: 18px;
+    }
+
+    .section-faq h1 {
+        font-size: 30px;
+    }
+
+    .section-faq span {
+        font-size: 20px;
+    }
+
+    .footer h1 {
+        font-size: 30px;
+    }
+
+    .footer h2 {
+        font-size: 30px;
+    }
+
+    .footer-creator a {
+        font-size: 16px;
+    }
+
+    .right-creator {
+        padding-top: 40px;
+    }
+
+    .footer-creator {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-finish {
         font-size: 14px;
     }
 
