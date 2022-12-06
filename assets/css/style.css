@@ -675,6 +675,7 @@ padding-bottom: 80px;
     background-color: #000;
     padding-left: 112.5px;
     padding-right: 112.5px;
+    padding-bottom:21px;
    
     
     
@@ -986,11 +987,13 @@ padding-bottom: 80px;
     .left-word h1{
         font-size: 36px;
     }
+    
     .left-word h3{
         font-size: 18px;
     }
     .right-word{
         padding-top: 100px;
+
     }
     .right-word h1{
         font-size: 28px;
@@ -1003,6 +1006,32 @@ padding-bottom: 80px;
     .section-ask h3{
         font-size: 18px;
     }
+    .section-faq h1{
+        font-size: 30px;
+    }
+    .section-faq span{
+        font-size:20px;
+    }
+    .footer h1{
+        font-size: 30px;
+    }
+    .footer h2{
+        font-size:30px ;
+    }
+    .footer-creator a{
+        font-size: 16px;
+    }
+    .right-creator{
+        padding-top: 40px;
+    }
+    .footer-creator{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-finish{
+        font-size: 14px;
+    }
+
 
 }
 
