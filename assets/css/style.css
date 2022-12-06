@@ -58,7 +58,7 @@ header {
 
 .section>.left-side {
     flex-direction: column;
-    flex-basis: 48%;
+    flex-basis: 50%;
     cursor: default;
     min-width: 715px;
     padding-top: 117px;
@@ -120,15 +120,10 @@ header {
 .section>.right-side {
     min-width: 500px;
     padding-top: 4.5rem;
-    flex: 0.52;
+    flex: 1;
 }
 
-b {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 202px;
-}
+
 
 .trusted-by-sec {
     text-align: center;
@@ -221,6 +216,7 @@ b {
     font-size: 22px;
     font-weight: 700;
     cursor: default;
+    text-transform: uppercase;
 }
 
 .project-info-1 {
@@ -249,53 +245,22 @@ button:hover {
     text-decoration: underline cornflowerblue;
 }
 
-.project-z {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
 
-}
 
-.project-z p {
-    margin-top: 33px;
-    color: rgba(60, 70, 255, 1);
-    font-size: 14px;
-    font-weight: 700;
-    padding-left: 2.03rem;
-    margin-bottom: 1.06rem;
-    cursor: default;
-}
-
-.project-z h6 {
-    font-size: 20px;
-    font-weight: 700;
-    padding-left: 2rem;
-    cursor: default;
-}
-
-.project-z a {
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-    padding-left: 2rem;
-
-}
-
-.project-z a:hover {
-    text-decoration: underline cornflowerblue;
-}
 
 .sec-project {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     /* background-color: #000; */
     z-index: 2;
     padding-top: 70px;
+    
 }
 
 .project_in-the {
     min-width: 486px;
+    padding-left: 222px;
+    padding-right: 222px;
 
 }
 
@@ -347,13 +312,13 @@ button:hover {
 
 .section-blog {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #000;
     color: #fff;
     padding-left: 112.5px;
     padding-right: 112.5px;
-    margin-top: -16.5%;
     padding-bottom: 144px;
+    margin-top: -20%;
 }
 
 .blog-blog {
@@ -372,8 +337,7 @@ button:hover {
 .blog-blog h1 {
     font-size: 54px;
     font-weight: 700;
-    letter-spacing: 1px;
-    min-width: 332px;
+
 }
 
 .blog-blog-one h3 {
@@ -386,12 +350,15 @@ button:hover {
 .blog-blog-one {
     flex: 1;
     padding-top: 317px;
-   ;
+    
 }
+
 .blog-vector {
     padding-bottom: 30px;
     border-bottom: 1px solid #666;
+    
 }
+
 .section-blog a {
     text-decoration: none;
     color: #fff;
@@ -471,6 +438,7 @@ button:hover {
 .education-and-work {
     display: flex;
     padding: 154px 112.5px 0;
+   
 
 }
 
@@ -542,8 +510,7 @@ button:hover {
 
 }
 
-.work-right>svg {
-
+.work-right > svg{
     flex-basis: 10%;
 }
 
@@ -551,8 +518,8 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 113px;
-    padding-right: 112px;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
     padding-bottom: 159.66px;
 
 }
@@ -560,7 +527,7 @@ button:hover {
 .left-word {
     display: flex;
     flex-direction: column;
-    flex-basis: 40%;
+    flex-basis: 50%;
     padding-top: 140px;
     padding-right: 146px;
 
@@ -582,13 +549,13 @@ button:hover {
 .right-word {
     display: flex;
     flex-direction: column;
-    flex: 1.2;
+    flex: 1;
     cursor: default;
-    padding-top: 370px;
+    padding-top: 260px;
 }
 
-.word-top h1 {
-    font-size: 36px;
+.word-top h3 {
+    font-size: 30px;
     font-weight: 700;
     line-height: 46px;
     min-width: 500px;
@@ -624,9 +591,12 @@ button:hover {
     display: flex;
     flex-direction: column;
     background-color: #000;
-    padding: 78px 112.5px 80.34px;
-    margin: 0;
-    
+padding-left: 112.5px;
+padding-right: 112.5px;
+padding-top: 78.34px;
+padding-bottom: 80px;
+
+
 
 }
 
@@ -637,28 +607,45 @@ button:hover {
     align-items: center;
     color: #fff;
     padding-bottom: 150px;
+
+}
+.section-faq span{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgba(255, 138, 86, 1);
+    letter-spacing: 4px;
+}
+.section-faq h1{
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 59px;
 }
 
 .section-ask {
     display: flex;
     color: #fff;
-    
+
 }
-.section-ask h3{
+
+.section-ask h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 31px;
     min-width: 500px;
 }
+
 .left-ask {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
     justify-content: space-between;
     padding-right: 20px;
-    
+
 }
-.left-answer{
+
+.left-answer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -670,97 +657,120 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex: 1;
-padding-left: 20px;
+    
 }
-.right-answer{
+
+.right-answer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px;
     border-bottom: 1px solid #666;
 }
-.footer{
+
+.footer {
     display: flex;
     flex-direction: column;
     color: #fff;
     background-color: #000;
-    padding: 150.34px 112.5px 21px;
+    padding-left: 112.5px;
+    padding-right: 112.5px;
+   
+    
+    
 }
-.footer-call{
-    padding-bottom:40px;
+
+.footer-call {
+    padding-bottom: 40px;
 }
-.footer-call h1{
-    font-size: 54px;
+
+.footer-call h1 {
+    font-size: 44px;
     font-weight: 700;
     letter-spacing: 1px;
     line-height: 59px;
-    
+
 }
-.footer-call h2{
-    font-size: 54px;
+
+.footer-call h2 {
+    font-size: 44px;
     font-weight: 700;
     color: rgba(60, 70, 255, 1);
     line-height: 59px;
 }
-.footer-creator{
+
+.footer-creator {
     display: flex;
     justify-content: space-between;
 }
-.left-creator svg{
-margin-bottom: 18px;
+
+.left-creator svg {
+    margin-bottom: 18px;
 }
-.creator-bottom{
+
+.creator-bottom {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
 }
-.creator-bottom span{
+
+.creator-bottom span {
     margin-bottom: 10px;
     font-size: 16px;
     font-weight: 400;
     color: rgba(102, 102, 102, 1);
 }
-.creator-bottom a{
+
+.creator-bottom a {
     text-decoration: none;
     color: rgba(92, 92, 92, 1);
     font-size: 17px;
     font-weight: 400;
 }
-.right-creator{
+
+.right-creator {
     display: flex;
 }
-.right-creator a{
+
+.right-creator a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
 }
-.creator-top{
+
+.creator-top {
     display: flex;
     flex-direction: column;
 }
-.creator-top a{  
-    
+
+.creator-top a {
+
     margin-bottom: 40px;
 }
-.creator-medium{
+
+.creator-medium {
     display: flex;
     flex-direction: column;
 }
-.creator-medium a{
-    margin-right:122px;
-    margin-left:123px ;
+
+.creator-medium a {
+    margin-right:50px;
+    margin-left: 50px;
     margin-bottom: 40px;
 }
-.creator-finish{
+
+.creator-finish {
     display: flex;
     flex-direction: column;
 }
-.creator-finish a{
+
+.creator-finish a {
     margin-bottom: 40px;
-    
+
 }
-.footer-finish{
+
+.footer-finish {
     padding-top: 140px;
     color: rgba(138, 149, 173, 1);
     font-size: 16px;
@@ -793,14 +803,14 @@ margin-bottom: 18px;
     .section>.left-side {
         min-width: 700px;
         text-align: center;
-        flex-basis: 100%;
+        flex-basis: 50%;
         padding-bottom: 4.5rem;
     }
 
     .section>.right-side {
         min-width: 500px;
         text-align: center;
-        flex-basis: 100%;
+        flex-basis: 50%;
     }
 
     .trusted-company:nth-child(odd) {
@@ -831,64 +841,40 @@ margin-bottom: 18px;
     .general-vector {
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        padding: 0 20px 0;
+        padding: 0 40px 0;
 
 
 
     }
 
-    .one-vector h1 {
+    .general-vector h1 {
         font-size: 20px;
         min-width: 200px;
     }
 
-    .one-vector img {
+    .general-vector img {
         width: 40px;
         height: 40px;
     }
 
-    .one-vector p {
+    .general-vector p {
         font-size: 14px;
+        line-height: 24px;
     }
 
     .square h6 {
         font-size: 14px;
     }
 
-    .two-vector h1 {
-        font-size: 20px;
-        min-width: 210px;
-    }
-
-    .two-vector img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .two-vector p {
-        font-size: 14px;
-    }
-
-    .three-vector h1 {
-        font-size: 20px;
-        min-width: 200px;
-    }
-
-    .three-vector img {
-        width: 40px;
-        height: 40px;
-    }
-
-    .three-vector p {
-        font-size: 14px;
-    }
+   
 
     .one-vector,
     .two-vector,
     .three-vector {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
         margin-bottom: 30px;
     }
 
@@ -901,7 +887,7 @@ margin-bottom: 18px;
     .project-info-1 {
         display: flex;
         flex-wrap: wrap;
-        padding: 0;
+    
     }
 
     .project-in-the {
@@ -911,7 +897,7 @@ margin-bottom: 18px;
     .project-in-the img {
         width: 300px;
         /* padding-right: 10px; */
-        flex-basis: 50%;
+        flex-basis: 100%;
     }
 
     .project-in-the h3 {
@@ -921,14 +907,14 @@ margin-bottom: 18px;
     .section-blog {
         display: flex;
         justify-content: space-between;
-        padding: 0 20px 40px;
-        margin-top: -20%;
+        padding: 0 30px 40px;
+        /* margin-top: -20%; */
     }
 
-    
+
 
     .section-blog h1 {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .section-blog a {
@@ -936,10 +922,10 @@ margin-bottom: 18px;
     }
 
     .blog-blog-one h3 {
-        font-size: 18px;
-        /* min-width: 500px; */
+        font-size: 15px;
+        min-width: 500px;
     }
-
+    
     .section-product {
         padding: 60px 0;
     }
@@ -982,6 +968,40 @@ margin-bottom: 18px;
 
     .product-img .image1 {
         display: none;
+    }
+    .education-and-work{
+        display: flex;
+        flex-direction:column;
+    
+    
+    }
+    .right-work {
+        padding-top: 20px;
+    }
+    .word-testi{
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 0; */
+    }
+    .left-word h1{
+        font-size: 36px;
+    }
+    .left-word h3{
+        font-size: 18px;
+    }
+    .right-word{
+        padding-top: 100px;
+    }
+    .right-word h1{
+        font-size: 28px;
+    }
+    .section-ask{
+        display: flex;
+        flex-wrap: wrap;
+    padding: 0;
+    }
+    .section-ask h3{
+        font-size: 18px;
     }
 
 }
