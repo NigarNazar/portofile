@@ -817,7 +817,7 @@ button:hover {
 
     .section>.left-side {
         text-align: center;
-        flex-basis: 50%;
+        flex-basis: 100%;
         padding-bottom: 4.5rem;
     }
 
@@ -949,10 +949,11 @@ button:hover {
 
     
 .section-product{
-    padding: 0;
+    padding: 0 40px 0;
 }
     .product-text {
         display: flex;
+        padding: 0;
         flex-direction: column;
         
 
@@ -967,10 +968,12 @@ button:hover {
     .section-product h5 {
         min-width: 290px;
         font-size: 16px;
+        padding-top: 40px;
     }
 
     .section-product p {
-        font-size: 18px;
+        font-size: 16px;
+        padding-top:20px;
 
     }
 
@@ -983,7 +986,7 @@ button:hover {
 
     .product-img .image2 {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
 
 
     }
@@ -1090,7 +1093,7 @@ button:hover {
 }
     .section {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         /* align-items: center; */
         padding: 0 60px;
         flex-basis: 100%;
@@ -1101,7 +1104,7 @@ height: 290px;
 }
     .left-side h1 {
         font-size:44px;
-        line-height:44px;
+        line-height:54px;
     }
 .left-side p{
     font-size: 16px;
@@ -1135,6 +1138,8 @@ align-items:center ;
     .general-vector{
         display: flex;
         flex-wrap:wrap;
+
+    
     padding:40px 80px ;
     }
 .general-vector img{
@@ -1152,7 +1157,7 @@ align-items:center ;
     font-size:13px;
 }
 .one-vector,.two-vector,.three-vector{
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 .project-info{
     padding:40px 60px 0;
@@ -1207,12 +1212,14 @@ align-items:center ;
 }
 .product-text h5{
     font-size: 20px;
+    padding-top: 40px;
 } 
 .product-text h1{
     font-size: 36px;
 }
 .product-text p{
     font-size:14px;
+    padding-top:20px;
 }
 .product-img .image1{
     display: none;
