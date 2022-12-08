@@ -75,7 +75,7 @@ header {
 
 .left-side h1 {
     font-weight: 700;
-    font-size:68px;
+    font-size:70px;
 }
 
 .left-side h1:hover {
@@ -796,6 +796,11 @@ button:hover {
     font-size: 16px;
     font-weight: 400;
     cursor: default;
+}
+@media(max-width:1474px){
+   .section > .left-side h1{
+    font-size: 60px;
+   }
 }
 
 @media (max-width:1330px) and (min-width:768px) {
