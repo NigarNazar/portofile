@@ -75,7 +75,7 @@ header {
 
 .left-side h1 {
     font-weight: 700;
-    font-size: 70px;
+    font-size:68px;
 }
 
 .left-side h1:hover {
@@ -85,9 +85,9 @@ header {
 
 .left-side p {
     color: rgba(102, 102, 102, 1);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
-    margin-top: 34px;
+    /* margin-top: 34px; */
     line-height: 33px;
 }
 
@@ -163,7 +163,7 @@ header {
 }
 
 .downstairs h1 {
-    font-size: 54px;
+    font-size: 46px;
     font-weight: 700;
     line-height: 59px;
     
@@ -212,6 +212,11 @@ header {
 .project-info {
     padding: 10.4rem 7.04rem 0 7rem;
 
+}
+.project-info-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .project-info p {
@@ -414,7 +419,7 @@ button:hover {
 
 .product-img {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding-top: 147px;
 }
@@ -524,6 +529,7 @@ button:hover {
     padding-left: 112.5px;
     padding-right: 112.5px;
     padding-bottom: 159.66px;
+    padding-top: 140px;
     cursor: default;
 
 }
@@ -532,8 +538,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    padding-top: 140px;
-    padding-right: 146px;
+    
+    padding-right:80px;
 
 }
 
@@ -555,16 +561,15 @@ button:hover {
     flex-direction: column;
     flex: 1;
     cursor: default;
-    padding-top: 260px;
+    padding-top:240px;
+   
 }
-
 .word-top h3 {
     font-size:28px;
     font-weight: 700;
     line-height: 46px;
-    /* min-width: 500px; */
+    min-width: 400px;
 }
-
 .word-bottom {
     display: flex;
     justify-content: space-between;
@@ -894,6 +899,7 @@ button:hover {
     .project-info-1 h1 {
         min-width: 486px;
         font-size: 40px;
+        line-height: 54px;
 
     }
 
@@ -1008,10 +1014,13 @@ button:hover {
 
     .word-testi {
         display: flex;
-        flex-wrap: wrap;
+       /* flex-direction: column; */
+       flex-wrap: wrap;
        
     }
-
+.left-word{
+    padding-top:60px;
+}
     .left-word h1 {
         font-size: 36px;
     }
@@ -1019,14 +1028,12 @@ button:hover {
     .left-word h3 {
         font-size: 18px;
     }
-
-    .right-word {
-        padding-top: 100px;
-
+    
+    .right-word h3{
+        font-size:23px;
     }
-
-    .right-word h1 {
-        font-size: 28px;
+    .right-word img{
+        width: 40px;
     }
 
     .section-ask {
@@ -1245,25 +1252,28 @@ font-size: 32px;
 .word-testi{
     display: flex;
     flex-wrap: wrap;
-    padding:40px;
+    align-items: center;
+    padding: 0 40px 20px;
+    
 }
-.left-word{
-    padding-top:40px;
-}
+
 .left-word h1{
     font-size:40px;
 }
 .left-word img{
     width: 400px;
 }
-.right-word{
-    padding-top:60px;
+.left-word{
+    padding-bottom:60px;
 }
+
+
 .right-word img{
     width:35px;
 }
 .right-word h3{
     font-size:23px;
+    /* padding-top:100px ; */
 }
 .faq-section{
     display: flex;
