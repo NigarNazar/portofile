@@ -798,7 +798,7 @@ button:hover {
     cursor: default;
 }
 @media(max-width:1474px){
-   .section > .left-side h1{
+.left-side h1{
     font-size: 60px;
    }
 }
