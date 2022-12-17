@@ -46,6 +46,8 @@ header {
 
 .nav-links a:hover {
     text-decoration: underline cornflowerblue;
+    transform:translateY(7px);
+    transition: 0.7s ease;
 }
 
 .section {
