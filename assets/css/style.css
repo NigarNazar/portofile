@@ -16,9 +16,9 @@ header {
     padding-top: 2.563rem;
 
 }
-
-
-.bars {
+ 
+  
+   .bars {
     display: none;
 
 
@@ -52,12 +52,14 @@ header {
 
 .section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-left: 112.5px;
     padding-right: 112px;
 
 }
+ 
 
 .section>.left-side {
     flex-direction: column;
@@ -257,11 +259,11 @@ button:hover {
 .sec-project {
     display: flex;
     justify-content: space-around;
-    /* background-color: #000; */
     z-index: 2;
     padding-top: 70px;
 
 }
+.
 
 .project_in-the {
     min-width: 486px;
@@ -326,6 +328,7 @@ button:hover {
     padding-bottom: 144px;
     margin-top: -20%;
 }
+
 
 .blog-blog {
     flex-basis: 50%;
@@ -463,6 +466,7 @@ button:hover {
     font-size: 36px;
     font-weight: 400;
 }
+
 
 .left-education {
     flex-basis: 50%;
@@ -799,11 +803,15 @@ button:hover {
     cursor: default;
 }
 
-@media(max-width:1474px) and (min-width:1095px) {
+@media(max-width:1470px) and (min-width:1095px) {
    
-
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
     .left-side h1 {
-        font-size: 46px;
+        font-size: 50px;
 
     }
 
