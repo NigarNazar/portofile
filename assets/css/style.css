@@ -222,6 +222,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+
 }
 
 .project-info p {
@@ -259,16 +261,15 @@ button:hover {
 .sec-project {
     display: flex;
     justify-content: space-around;
-    z-index: 2;
+    background-color: #fff;
     padding-top: 70px;
-
 }
 
 .project_in-the {
     min-width: 486px;
     padding-left: 222px;
     padding-right: 222px;
-
+    box-shadow: 7px 12px 15px rgba(0,0,0,0.4);
 }
 
 .project-bottom {
@@ -305,10 +306,6 @@ button:hover {
     display: flex;
     justify-content: end;
     padding-top: 26px;
-    
-
-
-
 }
 
 .button-button button {
@@ -322,10 +319,11 @@ button:hover {
     justify-content: space-between;
     background-color: #000;
     color: #fff;
+
     padding-left: 112.5px;
     padding-right: 112.5px;
     padding-bottom: 144px;
-    margin-top: -20%;
+    margin-top: -18%;  
 }
 
 
