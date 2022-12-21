@@ -16,8 +16,8 @@ header {
     padding-top: 2.563rem;
 
 }
+
  
-  
    .bars {
     display: none;
 
@@ -261,15 +261,8 @@ button:hover {
 .sec-project {
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
-    padding-top: 70px;
-}
+  padding-top: 70px;
 
-.project_in-the {
-    min-width: 486px;
-    padding-left: 222px;
-    padding-right: 222px;
-    box-shadow: 7px 12px 15px rgba(0,0,0,0.4);
 }
 
 .project-bottom {
@@ -319,7 +312,6 @@ button:hover {
     justify-content: space-between;
     background-color: #000;
     color: #fff;
-
     padding-left: 112.5px;
     padding-right: 112.5px;
     padding-bottom: 144px;
@@ -846,7 +838,7 @@ button:hover {
     .one-vector,
     .two-vector,
     .three-vector {
-        margin-top: 30px;
+        margin-top: 40px;
     
         
     }
